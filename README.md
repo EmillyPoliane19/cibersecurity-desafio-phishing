@@ -40,9 +40,11 @@
 
 
 ### Informes
--Antes de funcionar o Phishing ocorreram alguns erros em relação a captura da senha por conta de um bug --> "AttributeError: module 'cgi' has no attribute 'escape'"
--Esse erro ocorre porque, a partir do Python 3.8, o método cgi.escape() foi removido. Esse método era utilizado para converter caracteres especiais em entidades HTML.
--Para resolver esse erro é necessário modificar no arquivo python "cgi.escape("PARAM: " + line + "\n")" para html.escape("PARAM: " + line + "\n")
+- Antes de funcionar o Phishing ocorreram alguns erros em relação a captura da senha por conta de um bug --> "AttributeError: module 'cgi' has no attribute 'escape'"
+
+![Alt text](./erroCGI.png "Optional title")
+- Esse erro ocorre porque, a partir do Python 3.8, o método cgi.escape() foi removido. Esse método era utilizado para converter caracteres especiais em entidades HTML.
+- Para resolver esse erro é necessário modificar no arquivo python "cgi.escape("PARAM: " + line + "\n")" para html.escape("PARAM: " + line + "\n")
 
 ``` Passos: ```
 - Abrir o explorador de arquivos no endereço: /usr/share/set/src/webattack/harvester/harvester.py:
