@@ -23,7 +23,7 @@
   
 - Obtendo o endereço da máquina: ``` ifconfig ``` ou utilizando o próprio endereço ip sugerido 
 ![Alt text](./ip.png "Optional title")
-  
+
 - URL para clone: https://cursos.alura.com.br/loginForm
 ![Alt text](./clone.png "Optional title")
 
@@ -46,13 +46,13 @@
 - Abrir o explorador de arquivos no endereço: /usr/share/set/src/webattack/harvester/harvester.py:
 ![Alt text](./pasta.png "Optional title")
 
--Importar o html:
+- Importar o html:
 ![Alt text](./import_html.png "Optional title")
 
--Mudar o codigo cgi.escape("PARAM: " + line + "\n") para html.escape("PARAM: " + line + "\n"):
+- Mudar o codigo cgi.escape("PARAM: " + line + "\n") para html.escape("PARAM: " + line + "\n"):
 ![Alt text](./alteração.png "Optional title")
 
--Após essas alterações é só salvar e testar
--Link para vídeo de explicação no youtube: https://youtu.be/aM5yjJ8JUME?si=wRDORgmeoqcl-1s4
+- Após essas alterações é só salvar e testar
+- Link para vídeo de explicação no youtube: https://youtu.be/aM5yjJ8JUME?si=wRDORgmeoqcl-1s4
 
 
